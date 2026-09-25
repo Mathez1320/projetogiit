@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.container
+{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card 
+{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#form-tarefa
+{
+    display: flex;
+    gap: 10px;
+}
+
+#input-tarefa
+{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cccc;
+    border-radius: 4px;
+}
+
+.btn
+{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #1c5e1f;
+}
+
+.btn-adicionar
+{
+    background-color: #1c5e1f;
+}
+
+#lista-tarefas
+{
+    list-style: none;
+}
+
+.tarefa
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.tarefa:last-child
+{
+    border-bottom: none;
+}
+
+.tarefa-texto
+{
+    flex:1;
+    word-break: break-word;
+}
+
+.tarefa-concluida .tarefa-texto 
+{
+    text-decoration:  line-through;
+    color: #999;
+}
+
+.btn-deletar
+{
+    background-color: #1c5e1f;
+}
